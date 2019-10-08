@@ -20,4 +20,3 @@
      user: itesciadmin
      key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDVdq8wngC0TEgc0Y+HqnDLyGpENThcm+ROuzBtBu0tyyYeBTS88Llu7VITRtaoYFW5ubq0tdYu7CpPp9EES51e+g/U9y/muwWH66QCFf9DVtO/Hdevbfwwda6o/HuJINGfuqNws31ATU5t9JyvVJxq4xiWN5PeKW2hHZ2gm94FjxbPaEMGtwdywQRNcMjwxwD44bVDELCJ2WAsZX5ElHtm96srCVu6D4W/pXHAQR0GbTSEkc/U2sWD5aBFgI1/FISG/rHlHNoaKlvudE8Z+4+HP9PGGx1zjONbZZRh/UV0Q74sqWFfKs4jWcfwrdoBYQCXJkE3H8wKjP+3Rmd5OSRl itescia@itescia'
      state: present
-     exclusive: true
