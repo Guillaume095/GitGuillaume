@@ -1,9 +1,9 @@
 ---
 - name: Ajout user itesciadmin
   group:
-     name: itesciadmin
-     gid: 1001
-     state: present
+    name: itesciadmin
+    gid: 1001
+    state: present
      
 - name: Ajout de l'utilisateur dans home 
   user:
@@ -17,6 +17,6 @@
     
 - name: SSH
   authorized_key:
-     user: itesciadmin
-     key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDo/H0MRgxh+grL3wcASJDc0AzSYXw9DIma26Nn2mr1Doli2+D7fuDZLUTaVdTCJNXzx+tQsJ4ulL/YiIf84ZvI+c8Az5BULHIZ2x1zSUdUEIFRaqaLeNrdmfFCdFakHb1qeWDSEl1hKLN16b2cNR9G41EKucdLwZT6ZE5cxHPhhvM6X6YsMrBqpvyGgzzx6RTlkYGRYDc4Cjj3dy583YPOb4GQq+jcwJctvfUyjGeHI5gVZD5g1oU5D90fhkLyPHJOWWlLrpGUaskIN6WWy6slJKn7zjTvIadaFxHhdivA8cWgkKl15MuESXpKR4Nmlfk8FppGTU1HCZ4/E9fMip3x root@itescia'
-     state: present
+    user: itesciadmin
+    key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDo/H0MRgxh+grL3wcASJDc0AzSYXw9DIma26Nn2mr1Doli2+D7fuDZLUTaVdTCJNXzx+tQsJ4ulL/YiIf84ZvI+c8Az5BULHIZ2x1zSUdUEIFRaqaLeNrdmfFCdFakHb1qeWDSEl1hKLN16b2cNR9G41EKucdLwZT6ZE5cxHPhhvM6X6YsMrBqpvyGgzzx6RTlkYGRYDc4Cjj3dy583YPOb4GQq+jcwJctvfUyjGeHI5gVZD5g1oU5D90fhkLyPHJOWWlLrpGUaskIN6WWy6slJKn7zjTvIadaFxHhdivA8cWgkKl15MuESXpKR4Nmlfk8FppGTU1HCZ4/E9fMip3x root@itescia'
+    state: present
