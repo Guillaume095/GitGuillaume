@@ -18,5 +18,5 @@
 - name: SSH
   authorized_key:
      user: itesciadmin
-     key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDVdq8wngC0TEgc0Y+HqnDLyGpENThcm+ROuzBtBu0tyyYeBTS88Llu7VITRtaoYFW5ubq0tdYu7CpPp9EES51e+g/U9y/muwWH66QCFf9DVtO/Hdevbfwwda6o/HuJINGfuqNws31ATU5t9JyvVJxq4xiWN5PeKW2hHZ2gm94FjxbPaEMGtwdywQRNcMjwxwD44bVDELCJ2WAsZX5ElHtm96srCVu6D4W/pXHAQR0GbTSEkc/U2sWD5aBFgI1/FISG/rHlHNoaKlvudE8Z+4+HP9PGGx1zjONbZZRh/UV0Q74sqWFfKs4jWcfwrdoBYQCXJkE3H8wKjP+3Rmd5OSRl itescia@itescia'
+     key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDo/H0MRgxh+grL3wcASJDc0AzSYXw9DIma26Nn2mr1Doli2+D7fuDZLUTaVdTCJNXzx+tQsJ4ulL/YiIf84ZvI+c8Az5BULHIZ2x1zSUdUEIFRaqaLeNrdmfFCdFakHb1qeWDSEl1hKLN16b2cNR9G41EKucdLwZT6ZE5cxHPhhvM6X6YsMrBqpvyGgzzx6RTlkYGRYDc4Cjj3dy583YPOb4GQq+jcwJctvfUyjGeHI5gVZD5g1oU5D90fhkLyPHJOWWlLrpGUaskIN6WWy6slJKn7zjTvIadaFxHhdivA8cWgkKl15MuESXpKR4Nmlfk8FppGTU1HCZ4/E9fMip3x root@itescia'
      state: present
