@@ -1,17 +1,11 @@
-mysql_root_password: super-secure-password
+---
+mysql_root_password: itescia
 mysql_databases:
-  - name: example_db
+  - name: itescia_db
     encoding: latin1
     collation: latin1_general_ci
 mysql_users:
   - name: itescia
     host: "%"
     password: itescia
-    priv: "itescia.*:ALL"
-# Playbook install MySQL
-- hosts: all
-  become: yes
-  vars_files:
-        - vars/main.yml
-  roles:
-        - role: geerlingguy.mysql
+    priv: "itescia_db.*:ALL"
