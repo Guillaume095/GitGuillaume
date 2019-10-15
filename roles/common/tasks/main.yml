@@ -1,3 +1,7 @@
 ---
 - include: "users.yml"
 - include: "package.yml"
+- mysql_user_name: /root
+- mysql_user_name: root
+- mysql_user_password: false
+
