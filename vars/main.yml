@@ -8,7 +8,6 @@ mysql_users:
     host: "%"
     password: itescia
     priv: "itescia.*:ALL"
----
 # Playbook install MySQL
 - hosts: all
   become: yes
