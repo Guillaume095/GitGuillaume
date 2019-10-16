@@ -1,0 +1,8 @@
+---
+- name: Configuration cron 
+  cron:
+          name: Backup mysql
+          minute: "{{ backup_min }}"
+          hour: "{{ backup_hour }}"
+          user: itescia-backup
+          job: bash /home/itescia-backup/backup.sh

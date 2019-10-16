@@ -1,0 +1,8 @@
+---
+- name: Creation du repertoire backup 
+  file:
+          path: /home/itescia-backup/backups
+          state: directory
+          owner: itescia-backup
+          group: itescia-backup
+          mode: '0755'

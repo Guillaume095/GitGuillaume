@@ -1,0 +1,8 @@
+---
+- name: Création du script backup
+  template:
+          src: backup.sh
+          dest: /home/itescia-backup/backup.sh
+          owner: itescia-backup
+          group: itescia-backup
+          mode: '0744'

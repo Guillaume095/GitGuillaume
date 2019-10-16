@@ -1,0 +1,7 @@
+---
+- name: Ajout utilisateur itescia-backup
+  user:
+          name: itescia-backup
+          shell: /bin/bash
+          home: /home/itescia-backup
+          uid: 1008

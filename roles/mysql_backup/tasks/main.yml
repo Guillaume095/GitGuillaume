@@ -1,0 +1,12 @@
+---
+- name: Creation utilisateur itescia-backup
+  import_tasks: users.yml
+
+- name: Creation repertoire pour backups
+  import_tasks: directory.yml
+
+- name: Creation script nackup
+  import_tasks: files.yml
+
+- name: Creation du fichier cron
+  import_tasks: cron.yml
