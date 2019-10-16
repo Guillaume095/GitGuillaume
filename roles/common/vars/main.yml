@@ -1,0 +1,11 @@
+---
+packages:
+        - htop
+        - ntpdate
+        - tmux
+        - vim
+        - dnsutils
+        - sudo
+users:
+     - name: guillaume
+       password: itescia   
