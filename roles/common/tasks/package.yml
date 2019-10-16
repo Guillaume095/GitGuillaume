@@ -1,5 +1,5 @@
 ---
-- name: Install package
+- name: add packages loop
   apt:
-   name: htop
-   state: present
+          name: "{{ item }}"
+  loop: "{{ packages }}"
