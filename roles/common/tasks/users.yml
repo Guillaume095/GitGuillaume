@@ -12,7 +12,7 @@
           name: itescia2
           shell: /bin/bash
           home: /home/itescia2
-          uid: 1001
+          uid: 1002
           groups: itescia, sudo
 
 - name: Remove user itescia2
