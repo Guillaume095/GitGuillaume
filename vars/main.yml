@@ -5,7 +5,12 @@ mysql_databases:
     encoding: latin1
     collation: latin1_general_ci
 mysql_users:
-  - name: itescia
+  - name: itescia-backup
     host: "%"
     password: itescia
-    priv: "itescia_db.*:ALL"
+    priv: "*.*:ALL"
+    
+  - name: client1
+    host: "%"
+    password: itescia
+    priv: "*.*:ALL"
