@@ -7,9 +7,17 @@
           uid: 1001
           groups: itescia,sudo
 
-- name: Remove user itescia
+- name: Add user itescia2
+  user: 
+          name: itescia2
+          shell: /bin/bash
+          home: /home/itescia2
+          uid: 1001
+          groups: itescia, sudo
+
+- name: Remove user itescia2
   user:
-          name: itescia
+          name: itescia2
           state: absent
           remove: yes
     
