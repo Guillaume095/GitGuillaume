@@ -28,9 +28,7 @@
     state: present
     
 - name: Création variable utilisateur
-    user:
-        name: "{{item.name}}"
-        password: "{{item.password}}"
+  user:
+      name: "{{item.name}}"
+      password: "{{item.password}}"
   loop: "{{client}}"
-  
-  
